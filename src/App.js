@@ -1,6 +1,13 @@
-import Register from "./components/Register";
 import "./App.css";
+import AppRoute from "./components/appRoute/AppRoute";
+import { BrowserRouter } from "react-router-dom";
 function App() {
-  return <Register></Register>;
+  return (
+    <>
+      <BrowserRouter>
+        <AppRoute></AppRoute>;
+      </BrowserRouter>
+    </>
+  );
 }
 export default App;
