@@ -6,9 +6,15 @@ const Home = () => {
         <a href="/" id="home-header">
           Home
         </a>
-        <a href="/login" id="login-header">
-          Login
-        </a>
+        <div>
+          <a href="/login" id="login-header">
+            Login
+          </a>
+          <span className="center"></span>
+          <a href="/register" id="register-header">
+            Register
+          </a>
+        </div>
       </div>
     </div>
   );

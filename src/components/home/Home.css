@@ -3,7 +3,7 @@
   height: 72.5px;
   background: #704040;
   z-index: 10;
-  position: relative; /* Added position relative to contain absolutely positioned elements */
+  position: relative;
 }
 
 .navbar {
@@ -11,31 +11,54 @@
   height: 100%;
   padding: 0.35rem 0;
   display: flex;
-  align-items: center; /* Center items vertically */
-  justify-content: space-between; /* Adjust this if you need specific layout */
+  align-items: center;
+  justify-content: space-between;
   z-index: 2;
 }
 
 #home-header {
-  margin: 0; /* Reset margin for consistency */
+  margin: 0;
   font-size: 16px;
   display: flex;
   align-items: center;
-  padding: 0 16px; /* Adjust padding as needed */
+  padding: 0 16px;
   width: auto;
+  color: azure;
   z-index: 10;
-  position: relative; /* Changed to relative */
+  position: relative;
 }
-
-#login-header {
-  margin: 0; /* Reset margin for consistency */
-  font-size: 16px;
+.div {
   display: flex;
+}
+#login-header {
+  margin: 0;
+  font-size: 16px;
   align-items: center;
-  justify-content: flex-end; /* Align to the right */
-  padding: 0 16px; /* Adjust padding as needed */
+  justify-content: flex-end;
+  padding: 0 16px;
   width: auto;
   z-index: 10;
-  position: relative; /* Changed to relative */
-  text-align: right; /* Ensure text alignment to the right */
+  position: relative;
+  bottom: 10px;
+  color: azure;
+
+  text-align: right;
+}
+.center {
+  display: inline-block;
+  width: 2px;
+  height: 30px;
+  background-color: black;
+}
+#register-header {
+  margin: 0;
+  font-size: 16px;
+  align-items: center;
+  justify-content: flex-end;
+  color: azure;
+  padding: 0 16px;
+  width: auto;
+  bottom: 10px;
+  z-index: 10;
+  position: relative;
 }
